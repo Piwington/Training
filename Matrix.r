@@ -1,0 +1,31 @@
+Pe<-c(95,46,93,43)
+Sm<-c(42,62,42,23)
+Ab<-c(72,71,93,67)
+R1<-rbind(Pe,Sm,Ab)
+R2<-cbind(Pe,Sm,Ab)
+colnames(R1)<-c("Physics","Chemistry","Biology","Maths")
+rownames(R1)<-c("Peter","Smith","Abby")
+print(R1)
+print(R2)
+A<-R1[1,2]
+B<-R1[1:2,3]
+C<-R1[,c(1,3)]
+D<-R1["Abby","Chemistry"]
+E<-attributes(R1)
+F<-rowSums(R1)
+G<-sum(R1["Abby",])
+H<-rowMeans(R1)
+Fn<-function(X){
+  P<-sum(X)/3
+  if(P>60){
+    "PASS"
+  }else{
+    "FAIL"
+  }
+}
+Z<-apply(R1,1,Fn)
+Y<-matrix(c(Pe,Sm,Ab),nrow=4,byrow=TRUE)
+print(Y)
+K<-data.frame(Num=c(1:3),Name=c("Rick","Dan","Patrick"),Mark=c(23,34,45),stringsAsFactors=TRUE)
+row.names(K)<-c("A","B","C")
+print(K)

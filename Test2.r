@@ -1,0 +1,16 @@
+A<-10
+X<-function(){
+  print(A)
+  #A<-2
+  print(A)
+  ABC<-function(){
+    print(A)
+    A<<-56
+    print(A)
+  }
+  ABC()
+  print(A)
+  #A<<-87
+}
+X()
+print(A)
