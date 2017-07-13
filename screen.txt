@@ -1,0 +1,2 @@
+Mad,Badass,Cripple|Str:67,Dex:34|Bob,SSS,10000
+King,Collaborator|Str:34,Dex:89|Poppy,F,32

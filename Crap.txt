@@ -1,0 +1,9 @@
+Regno,Subject,Mark
+1,Chem,90
+1,Phy,40
+1,Bio,70
+2,Chem,120
+2,Phy,140
+3,Phy,130
+3,Chem,100
+3,Bio,150
