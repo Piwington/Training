@@ -1,0 +1,5 @@
+ID|Name|Age|Gender|Marks
+1|David|22|M|450
+2|Binay|99|M|400
+3|Luke|10|F|000
+4|Chris|18|M|069
