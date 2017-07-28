@@ -1,0 +1,1 @@
+Data<-rxImport(C:\Users\QA\Downloads\SAS\SAS_Task_2_Resources\snacks.sas7bdat)
